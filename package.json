@@ -1,0 +1,15 @@
+{
+  "name": "khaliq-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tailwindcss -i ./input.css -o ./styles.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./styles.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
